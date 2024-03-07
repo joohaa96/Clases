@@ -9,4 +9,4 @@ public class Clasetres {
 //Crear metodo donde este un animal y la edad, imprimir y llamar al metodo dos veces.
 // ej : Leon 15 año
 
-//subir a git con comandos
+//subir a git con comando
