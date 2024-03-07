@@ -14,13 +14,17 @@ public class Cadenas {
 
         datos(nombre, apellido,edad);
         datos(nombreUno, apellidoUno,edadUno);
+        suma(2,1);
 
     }
     public static void datos (String name, String apellido, int edad) {
         System.out.println(edad + " " + apellido + " " + name);
     }
 
+    public static void suma (int num, int numDos) {
+        System.out.println(num + numDos);
 
+    }
 
 
 }
