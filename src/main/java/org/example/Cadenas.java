@@ -16,6 +16,10 @@ public class Cadenas {
         datos(nombreUno, apellidoUno,edadUno);
 
     }
+    public static void datos (String name, String apellido, int edad) {
+        System.out.println(edad + " " + apellido + " " + name);
+    }
+
 
 
 
