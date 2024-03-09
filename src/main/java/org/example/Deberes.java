@@ -14,8 +14,36 @@ public class Deberes {
 
     public static void main(String[] args) {
         //Aqui va la declaracion de las variables y las llamadas al metodo
+
+        int num= 2;
+        int numOne= 3;
+
+        int a= 3;
+        int b= 3;
+
+        variable(a,b);
+
+        /*int max= Math.max(num, numOne);
+        System.out.println(max); */ //podria valer como metodo de comparacion
+
+        if (num < numOne) {
+            System.out.println( num + " es menor que" + " " + numOne );
+    }
+        else {
+        System.out.println( numOne + " es mayor" + " " + num );
     }
 
-    //Aqui va el metodo ---->
 
-}
+
+    }
+
+        //Aqui va el metodo ---->
+        public static void variable (int a, int b){
+        if (a==b) {
+        System.out.println("Son iguales");
+
+
+    }
+
+    }
+    }
