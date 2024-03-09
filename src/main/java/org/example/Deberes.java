@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Objects;
+
 public class Deberes {
     //Crear tu rama de deberes
 
@@ -21,6 +23,12 @@ public class Deberes {
         int a= 3;
         int b= 3;
 
+        String name= "Yan";
+        String nameOne= "Marco";
+
+        names(name,nameOne);
+
+
         variable(a,b);
 
         /*int max= Math.max(num, numOne);
@@ -34,7 +42,6 @@ public class Deberes {
     }
 
 
-
     }
 
         //Aqui va el metodo ---->
@@ -43,7 +50,17 @@ public class Deberes {
         System.out.println("Son iguales");
 
 
-    }
 
     }
+
+
+
+    }
+    public static void names (String name, String nameOne){
+        if (Objects.equals(name,nameOne)){
+            System.out.println( "Son iguales");
+        }
+
+    }
+
     }
