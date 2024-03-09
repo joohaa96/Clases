@@ -57,10 +57,16 @@ public class Deberes {
 
     }
     public static void names (String name, String nameOne){
-        if (Objects.equals(name,nameOne)){
-            System.out.println( "Son iguales");
+        if (name.equals( nameOne)) {
+            System.out.println( "Los nombres son iguales");
+        }
+            else {
+            System.out.println("Los nombres no son iguales" );
         }
 
     }
-
     }
+
+
+
+
