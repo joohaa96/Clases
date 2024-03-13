@@ -24,9 +24,7 @@ public class EjerciciosArray {
             System.out.println(nombreDividio[i]);
 
         }
-
     }
-
 }
 
 
