@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Clases;
 
 public class ArrayClases {
     public static void main(String[] args) {

@@ -1,10 +1,8 @@
-package org.example;
+package org.example.Clases;
 
 public class EjerciciosArray {
     public static void main (String[] args){
-        int[] arrayNum= {1,2,3,4,5,6,7,8,9,10};
-        int mayor= 0;
-
+        int[] arrayNum= {-10,-9,-8,-7,-6,-5,-4,-3,-2, -1};
 
         String[] nombreDividido = {"j","o", "h", "a", "n", "n", "a"};
 
