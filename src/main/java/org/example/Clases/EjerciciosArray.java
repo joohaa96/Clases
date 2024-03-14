@@ -6,16 +6,17 @@ public class EjerciciosArray {
 
         String[] nombreDividido = {"j","o", "h", "a", "n", "n", "a"};
 
-        printNum(arrayNum, mayor);
+        int numMayorFirst = printNum(arrayNum);
         printNombres(nombreDividido);
     }
-    public static void printNum (int[] arrayNum, int mayor){
+    public static int printNum (int[] arrayNum){
+        int mayor = arrayNum[0];
         for (int i = 0; i < arrayNum.length; i++) {
-            if (arrayNum[i]> i) {
+            if (arrayNum[i] > mayor) {
                 mayor=arrayNum[i];
             }
         }
-            System.out.println("El numero mayor es " + mayor );
+        return mayor;
     }
     public static  void printNombres (String[]nombreDividio){
         for (int i = nombreDividio.length - 1; i >= 0; i--) {
