@@ -2,7 +2,7 @@ package org.example.Clases;
 
 public class EjerciciosArray {
     public static void main (String[] args){
-        int[] arrayNum= {-10,-9,-8,-7,-6,-5,-4,-3,-2, -1};
+        int[] arrayNum= {10,9,8,7,6,5,4,3,2,1};
 
         String[] nombreDividido = {"j","o", "h", "a", "n", "n", "a"};
 
