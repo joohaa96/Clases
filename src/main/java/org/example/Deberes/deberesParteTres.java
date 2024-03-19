@@ -2,6 +2,7 @@ package org.example.Deberes;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class deberesParteTres {
     public static void main(String[] args) {
@@ -22,8 +23,10 @@ public class deberesParteTres {
         nombresListaDos.add("Alberto");
         nombresListaDos.add("Kate");
 
-      printList(nombresLista);
-      printListDos(nombresListaDos);
+
+      List<String> resultado = finalMethod(nombresLista);
+
+      System.out.println(resultado);
 
     }
 
