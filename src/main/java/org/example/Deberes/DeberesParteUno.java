@@ -11,7 +11,7 @@ public class DeberesParteUno {
 
     // "Dani", "Johanna", "Diego", "Eugeny", "Igor", "Alberto"
     // "Dani", "Johanna", "Diego", "Eugeny", "Igor", "Alberto", "Kate"
-    //Un metodo que coja como argumento una lista de String. La recorra con un bucle for each. En el caso de que el elemento
+    //Un metodo que coja como argumento una lista de String La recorra con un bucle for each. En el caso de que el elemento
     // de la lista contiene la letra "a" crear una lista nueva donde vas a almacenar dichos elementos. El metodo tiene que
     // devolver dicha lista
     //Hacer una comprobacion extra para prevenir los posibles errores (Ej. Lista nula).
@@ -19,17 +19,20 @@ public class DeberesParteUno {
 
     public static void main(String[] args) {
         String[] animales = {"Tigre", "Elefante", "Gato"};
-        printAnimales(animales);
-    }
-    public static void printAnimales (String[]animalesDiv){
-        for (String a: animalesDiv){
-            String[] letrasAnimales = a.split("");
-            for (String divLetras : letrasAnimales) {
-                if (letrasAnimales == null){
 
-                System.out.println(divLetras);
-               }
+        printAnimales(animales);
+
+    }
+    public static void printAnimales (String[] animalesDiv){
+        if (animalesDiv != null) {
+            for (String a: animalesDiv){
+                String[] letrasAnimales = a.split("");
+                for (String divLetras : letrasAnimales) {
+                        System.out.println(divLetras);
+                }
             }
+        } else {
+            System.out.println("El array esta vacio");
         }
     }
 }
